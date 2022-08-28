@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+.main-content-wrapper {
+  width: calc(100% - 200px);
+  min-height: 100vh;
+  margin-left: 200px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.add-button {
+    position: fixed;
+    bottom: 10px;
+    right: 80px;
+    width: 200px;
+    height: 80px;
+    background: white;
+    box-shadow: 0 0 7px gray, 0 0 10px gray;
+    font-size: 20px;
+}
+.add-button:hover {
+  background: grey;
+  box-shadow: 0 0 7px white, 0 0 10px white;
+}

@@ -1,0 +1,23 @@
+.aside-wrapper {
+  width: 200px;
+  height: 100vh;
+  background-color: #ededed;
+  position: fixed;
+  padding: 50px 0;
+  overflow: hidden;
+  .aside-item p {
+    width: 100%;
+    height: 40px;
+    font-size: 19px;
+    color: white;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    transition-duration: 200ms;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
